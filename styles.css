@@ -1,10 +1,18 @@
-H1 { font-family: Arial, Helvetica, sans-serif
+body {
+    background-color: #D6D58E;
 }
 
-Nav{ border: solid #008083;
+H1 { 
+    font-family: Arial, Helvetica, sans-serif
+}
+
+Nav{ 
+    border: solid #008083;
 }  
 
-header { display: inline-block;
+header { 
+    display: inline-block;
+    background-color: ##042940;
 }
 
 nav li {
@@ -13,4 +21,11 @@ nav li {
 
 .card {
     display: inline-block;
+    max-width: 25%;
 }
+
+main {
+    max-width: 960px;
+    margin: 25px auto;
+}
+
