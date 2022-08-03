@@ -1,5 +1,5 @@
 body {
-    background-color: #D6D58E;
+    background-color: #AEB5BF;
 }
 
 H1 { 
@@ -22,8 +22,10 @@ nav li {
 }
 
 .card {
+    margin: 20px;
     display: inline-block;
-    max-width: 25%;
+    max-width: 20%;
+    border: solid black;
 }
 
 main {
@@ -37,20 +39,28 @@ section{
 
 /* unvisited link */
 a:link {
-    color: #042940;
+    color: #262626;
   }
   
   /* visited link */
   a:visited {
-    color: #005C53;
+    color: #58594F;
   }
   
   /* mouse over link */
   a:hover {
-    color: #9FC131;
+    color: #797F8C;
   }
   
   /* selected link */
   a:active {
-    color: #9FC131;
+    color: #797F8C;
+  }
+
+  footer {
+    border: solid black;
+    background-color: #58594F;
+    color: #F8F8FF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
   }
