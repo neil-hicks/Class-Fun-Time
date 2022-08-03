@@ -1,0 +1,16 @@
+H1 { font-family: Arial, Helvetica, sans-serif
+}
+
+Nav{ border: solid #008083;
+}  
+
+header { display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.card {
+    display: inline-block;
+}
