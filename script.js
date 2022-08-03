@@ -1,8 +1,8 @@
 const userName = prompt("what's your name?");
-// const myName = "Patrick"; 
+const myName = "Patrick"; 
 
-/* <script>
-    if (userName == ""){prompt("what's your name?");
-    } else {document.write ("Hi, " + userName + ", welcome!" );
-    }
-</script> */
+if (userName == ""){prompt("what's your name?");
+} else if (userName == "Patrick") {alert ("Hi, " + userName + ", that's my name, too!");
+} else {
+    alert ("Hi, " + userName + ", welcome!" );
+}
