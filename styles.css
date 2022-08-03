@@ -19,6 +19,7 @@ nav {
 
 nav li {
     display: inline-block;
+    margin: 10px;
 }
 
 .card {
@@ -26,6 +27,12 @@ nav li {
     display: inline-block;
     max-width: 20%;
     border: solid black;
+    justify-content: space-around;
+  
+}
+
+.card p {
+    text-align:center;
 }
 
 main {
