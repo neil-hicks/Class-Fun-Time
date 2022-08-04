@@ -7,14 +7,22 @@ if (userName == ""){prompt("What's your name?");
     alert ("Hi, " + userName + ", welcome!" );
 } */
 
-
 function totalDays() {
-    const numTrips = prompt("How many hiking trips do you take a year?"); 
-    const averageDays = prompt("How many days does each trip usually last?");
+   let numTrips = prompt("How many hiking trips do you take a year?"); 
+    while (numTrips == "" || numTrips == null){
+       numTrips = prompt("How many hiking trips do you take a year?"); 
+    // if (numTrips !== null) break;
+}  
+    let averageDays = prompt("How many days does each trip usually last?");  
+    while (averageDays == "" || averageDays == null){
+        averageDays = prompt("How many days does each trip usually last?");
+        // prompt("How many days does each trip usually last?");
+    // if (averageDays !== null) break;
+} 
     let totalDays = numTrips * averageDays;
     
     alert("You hike " + totalDays + " days a year!");
-    
+
 }
 
 /* const hikingTrips = function(numTrips) {
