@@ -39,3 +39,15 @@ if (favoriteTrail == "JMT") {alert ("Mine, too!");
 } else {alert ("That's awesome!");
 }
 */
+function repeat(){
+    let x = prompt("What would you rate this image? (1-5, 5 being the best.");
+
+   // console.log(x);
+    
+    const emptyDiv = document.getElementById("emptyDiv");
+    for (let i = 0; i < x; i++) {
+        emptyDiv.innerHTML += ("<div><img src='./images/toomas-tartes-Yizrl9N_eDA-unsplash.jpg' alt = 'W Loop in Chile'>" + (i+1) + "</div>");
+    }
+    return emptyDiv;        
+}   
+ //repeat(); 
